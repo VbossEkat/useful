@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template">
+    <t t-name="ListView.row.audio">
+	    <audio t-att-src="widget.src" controls="controls"></audio>
+    </t>
+</templates>
