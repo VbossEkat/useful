@@ -2,11 +2,13 @@
     :alt: License: AGPL-3
 
 =====================================
-Display audio player in tree view
+Display audio player in tree view. ODOO 8(New API)
 =====================================
 
 This module defines a tree audio widget. Use ``widget='audio'`` in your view
-definition. Source of your file must be as /<your_module_name_which_make_tree_view>/static/src/audio/yourfile.mp3
+definition. Store value of the field is a source of your audio file, 
+it must be as /<your_module_name_which_make_tree_view>/static/src/audio/yourfile.mp3
+Field must be Text or Char type.
 
 
 Maintainer
