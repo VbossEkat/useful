@@ -6,7 +6,7 @@ Display audio player in tree view
 =====================================
 
 This module defines a tree audio widget. Use ``widget='audio'`` in your view
-definition.
+definition. Source of your file must be as /<your_module_name_which_make_tree_view>/static/src/audio/yourfile.mp3
 
 
 Maintainer
